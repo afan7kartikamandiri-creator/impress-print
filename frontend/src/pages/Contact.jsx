@@ -241,11 +241,16 @@ ${formData.message}`;
               <div className="mt-10 pt-10 border-t border-white/10">
                 <div className="text-xs tracking-[0.2em] uppercase text-white/40 mb-4">Follow Us</div>
                 <div className="flex gap-3">
-                  <a href="#" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all" data-testid="social-instagram-contact">
                     <Instagram size={16} />
                   </a>
-                  <a href="#" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all" data-testid="social-facebook-contact">
                     <Facebook size={16} />
+                  </a>
+                  <a href={contactInfo.social.tiktokUrl} target="_blank" rel="noopener noreferrer" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all" data-testid="social-tiktok-contact" aria-label="TikTok">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1z"/>
+                    </svg>
                   </a>
                 </div>
               </div>
@@ -264,6 +269,55 @@ ${formData.message}`;
     </section>
   );
 };
+
+const MapSection = () => (
+  <section className="bg-black py-24 relative overflow-hidden" data-testid="map-section">
+    <div className="container mx-auto px-6 lg:px-12">
+      <div className="text-center mb-12">
+        <div className="text-xs tracking-[0.3em] uppercase text-[#D4AF37] mb-6">— Visit Our Studio</div>
+        <h2 className="font-serif text-white text-5xl md:text-6xl leading-[1] mb-4" style={{ letterSpacing: '-0.02em' }}>
+          Kunjungi <span className="font-italic-serif italic text-gold-gradient">Studio Kami</span>
+        </h2>
+        <p className="text-white/60 text-lg font-light max-w-xl mx-auto">
+          Jl. Penganten Ali No. 63, Ciracas, Jakarta Timur
+        </p>
+      </div>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+        className="relative w-full aspect-[16/9] md:aspect-[21/9] overflow-hidden border-2 border-[#D4AF37]/30"
+      >
+        <iframe
+          src="https://www.google.com/maps?q=Jl.+Penganten+Ali+No.+63,+Ciracas,+Jakarta+Timur&output=embed"
+          width="100%"
+          height="100%"
+          style={{ border: 0, filter: 'grayscale(0.3) contrast(1.1)' }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Impress Print Location"
+          data-testid="google-maps-embed"
+        />
+      </motion.div>
+      <div className="text-center mt-8">
+        <a
+          href={contactInfo.mapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="open-google-maps-link"
+          className="magnetic-btn group relative inline-flex items-center gap-3 px-10 py-5 border border-[#D4AF37] text-[#D4AF37] hover:text-black overflow-hidden"
+        >
+          <span className="relative z-10 flex items-center gap-3 text-sm tracking-[0.25em] uppercase font-medium">
+            Buka di Google Maps
+            <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform" />
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+);
 
 const FAQSection = () => {
   const faqs = [
@@ -329,6 +383,7 @@ const Contact = () => {
       <main className="page-content overflow-x-hidden">
         <ContactHero />
         <ContactForm />
+        <MapSection />
         <FAQSection />
       </main>
     </PageTransition>

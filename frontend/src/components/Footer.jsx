@@ -46,13 +46,18 @@ const Footer = () => {
                 Membentuk masa depan percetakan Indonesia dengan standar premium, teknologi terdepan, dan dedikasi pada kualitas yang tidak bisa dikompromi.
               </p>
               <div className="mt-8 flex gap-4">
-                <a href="#" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all duration-500" data-testid="footer-instagram">
+                <a href="#" target="_blank" rel="noopener noreferrer" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all duration-500" data-testid="footer-instagram" aria-label="Instagram">
                   <Instagram size={18} />
                 </a>
-                <a href="#" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all duration-500" data-testid="footer-facebook">
+                <a href="#" target="_blank" rel="noopener noreferrer" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all duration-500" data-testid="footer-facebook" aria-label="Facebook">
                   <Facebook size={18} />
                 </a>
-                <a href={`mailto:${contactInfo.email}`} className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all duration-500" data-testid="footer-email-icon">
+                <a href={contactInfo.social.tiktokUrl} target="_blank" rel="noopener noreferrer" className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all duration-500" data-testid="footer-tiktok" aria-label="TikTok">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1z"/>
+                  </svg>
+                </a>
+                <a href={`mailto:${contactInfo.email}`} className="w-11 h-11 border border-white/15 hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full flex items-center justify-center transition-all duration-500" data-testid="footer-email-icon" aria-label="Email">
                   <Mail size={18} />
                 </a>
               </div>

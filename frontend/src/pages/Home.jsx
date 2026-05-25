@@ -8,7 +8,8 @@ import {
 } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import AnimatedCounter from '../components/AnimatedCounter';
-import { services, stats, testimonials, portfolioItems, contactInfo } from '../mock';
+import BeforeAfterSlider from '../components/BeforeAfterSlider';
+import { services, stats, testimonials, portfolioItems, contactInfo, beforeAfterShowcase } from '../mock';
 
 const iconMap = {
   Printer, Sparkles, Maximize, CreditCard, Layers, Scissors, Image: ImageIcon, Palette
@@ -327,6 +328,76 @@ const FeaturedWork = () => {
   );
 };
 
+// ============ BEFORE / AFTER SHOWCASE ============
+const BeforeAfterSection = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const item = beforeAfterShowcase[activeIndex];
+
+  return (
+    <section className="py-32 bg-black relative overflow-hidden" data-testid="before-after-section">
+      <div className="absolute top-0 left-0 w-[600px] h-[600px] rounded-full bg-[#D4AF37]/5 blur-3xl" />
+      <div className="grain absolute inset-0" />
+      <div className="container mx-auto px-6 lg:px-12 relative z-10">
+        <div className="text-center mb-16">
+          <div className="text-xs tracking-[0.3em] uppercase text-[#D4AF37] mb-6">— The Transformation</div>
+          <h2 className="font-serif text-white text-5xl md:text-7xl lg:text-8xl leading-[1] mb-6" style={{ letterSpacing: '-0.02em' }}>
+            Lihat <span className="font-italic-serif italic text-gold-gradient">Bedanya</span>
+          </h2>
+          <p className="text-white/60 text-lg max-w-2xl mx-auto font-light">
+            Geser slider untuk melihat bagaimana kami mentransformasi konsep biasa menjadi karya luar biasa.
+          </p>
+        </div>
+
+        <motion.div
+          key={item.id}
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="max-w-5xl mx-auto"
+        >
+          <BeforeAfterSlider before={item.before} after={item.after} />
+
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+            <div className="md:col-span-2">
+              <div className="text-xs tracking-[0.3em] uppercase text-[#D4AF37] mb-3">{item.category}</div>
+              <h3 className="font-serif text-3xl md:text-4xl text-white mb-3" style={{ letterSpacing: '-0.02em' }}>{item.title}</h3>
+              <p className="text-white/60 leading-relaxed font-light">{item.description}</p>
+            </div>
+            <button
+              onClick={() => handleWhatsApp(`Halo, saya tertarik dengan ${item.title}, ingin konsultasi.`)}
+              className="magnetic-btn group relative px-8 py-4 border border-[#D4AF37] text-[#D4AF37] hover:text-black overflow-hidden"
+              data-testid={`before-after-cta-${item.id}`}
+            >
+              <span className="relative z-10 flex items-center gap-3 text-xs tracking-[0.25em] uppercase font-medium">
+                Mau Hasil Begini?
+                <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform" />
+              </span>
+            </button>
+          </div>
+        </motion.div>
+
+        {/* Thumbnail navigation */}
+        <div className="flex justify-center gap-3 mt-12 flex-wrap">
+          {beforeAfterShowcase.map((b, i) => (
+            <button
+              key={b.id}
+              onClick={() => setActiveIndex(i)}
+              data-testid={`before-after-nav-${i}`}
+              className={`px-5 py-2.5 text-xs tracking-[0.25em] uppercase border transition-all duration-500 ${
+                activeIndex === i
+                  ? 'bg-[#D4AF37] border-[#D4AF37] text-black'
+                  : 'border-white/20 text-white/60 hover:border-[#D4AF37] hover:text-[#D4AF37]'
+              }`}
+            >
+              {b.category}
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 // ============ TESTIMONIALS ============
 const TestimonialsSection = () => {
   const [active, setActive] = useState(0);
@@ -469,6 +540,7 @@ const Home = () => {
         <StatsSection />
         <ServicesPreview />
         <FeaturedWork />
+        <BeforeAfterSection />
         <TestimonialsSection />
         <CTASection />
       </main>

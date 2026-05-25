@@ -290,7 +290,10 @@ export const contactInfo = {
   phone: "0822-1928-1947",
   whatsapp: "6282219281947",
   email: "hello@impressprint.id",
-  address: "Jl. Printing Premium No. 88, Jakarta Selatan",
+  address: "Jl. Penganten Ali No. 63, Ciracas, Jakarta Timur",
+  shortAddress: "Ciracas, Jakarta Timur",
+  mapsUrl: "https://maps.app.goo.gl/TaWgJvVgD3PgvWkS7",
+  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5!2d106.86!3d-6.32!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSmwuIFBlbmdhbnRlbiBBbGksIENpcmFjYXMsIEphayBUaW11cg!5e0!3m2!1sid!2sid!4v1700000000000",
   hours: {
     weekday: "Senin - Jumat: 08.00 - 20.00 WIB",
     saturday: "Sabtu: 09.00 - 17.00 WIB",
@@ -299,7 +302,63 @@ export const contactInfo = {
   social: {
     instagram: "@impressprint.id",
     facebook: "Impress Print Indonesia",
-    tiktok: "@impressprint"
+    tiktok: "@impress.printt",
+    tiktokUrl: "https://www.tiktok.com/@impress.printt"
+  }
+};
+
+export const beforeAfterShowcase = [
+  {
+    id: 1,
+    title: "Kartu Nama Eksekutif",
+    category: "Premium Cards",
+    description: "Transformasi dari desain biasa menjadi kartu nama dengan hot stamping gold, embossing, dan finishing premium.",
+    before: "https://images.unsplash.com/photo-1606293459220-3a30c3989be5?w=1200&q=85",
+    after: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=1200&q=85"
+  },
+  {
+    id: 2,
+    title: "Tumbler Corporate Gift",
+    category: "Merchandise",
+    description: "Tumbler polos diubah menjadi merchandise corporate premium dengan UV print full color dan packaging eksklusif.",
+    before: "https://images.unsplash.com/photo-1572845759931-c0c0c4e7e0e0?w=1200&q=85",
+    after: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=1200&q=85"
+  },
+  {
+    id: 3,
+    title: "Branding Kafe Boutique",
+    category: "Sticker & Label",
+    description: "Cup polos & packaging plain bertransformasi menjadi branding kafe yang Instagram-worthy.",
+    before: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1200&q=85",
+    after: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2b5?w=1200&q=85"
+  },
+  {
+    id: 4,
+    title: "Plakat Penghargaan",
+    category: "Akrilik",
+    description: "Dari konsep desain digital menjadi plakat akrilik premium dengan UV printing 3D dan engraving gold.",
+    before: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=1200&q=85",
+    after: "https://images.unsplash.com/photo-1624969862644-791f3dc98927?w=1200&q=85"
+  }
+];
+
+export const seoData = {
+  siteName: "Impress Print",
+  tagline: "Print Smart & Look Better",
+  description: "Impress Print - Percetakan Premium di Jakarta Timur. Spesialis UV Printing, Custom Merchandise, Cetak Kartu Nama Premium, Tumbler Custom, Lanyard, Stiker, Akrilik & Banner. Lokasi Ciracas, Jakarta Timur. Hubungi 0822-1928-1947.",
+  shortDescription: "Premium Printing Atelier - Ciracas, Jakarta Timur",
+  keywords: "percetakan jakarta, percetakan premium jakarta, percetakan jakarta timur, percetakan ciracas, UV printing jakarta, cetak kartu nama jakarta, custom merchandise jakarta, cetak tumbler custom, percetakan custom jakarta, printing jakarta timur, cetak banner jakarta, cetak akrilik jakarta, percetakan terdekat ciracas, impress print, print smart look better, cetak undangan premium, percetakan murah jakarta, jasa cetak premium",
+  url: "https://impressprint.id",
+  geo: {
+    lat: -6.3245,
+    lng: 106.8617,
+    region: "ID-JK",
+    placename: "Jakarta Timur"
+  },
+  business: {
+    type: "PrintShop",
+    priceRange: "$$",
+    foundingYear: "2012"
   }
 };
 
