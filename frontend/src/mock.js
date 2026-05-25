@@ -1,274 +1,306 @@
 export const services = [
   {
     id: 1,
-    name: "Mesin UV Printing",
-    description: "Cetak dengan mesin UV berkualitas tinggi untuk hasil tajam dan tahan lama",
-    icon: "printer"
+    slug: "uv-printing",
+    name: "UV Printing",
+    tagline: "Cetak Premium Multi-Material",
+    description: "Teknologi cetak UV terdepan untuk hasil presisi tinggi pada berbagai material premium",
+    longDescription: "Mesin UV printing kami menggunakan teknologi LED-UV terkini yang mampu mencetak langsung pada material apapun dengan hasil warna yang vivid, tahan lama, dan presisi sempurna.",
+    icon: "Printer",
+    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=85",
+    features: ["Cetak langsung di material", "Warna vivid & tajam", "Tahan UV & cuaca", "Kualitas presisi tinggi"],
+    materials: ["Akrilik", "Kayu", "Logam", "Kaca", "Kulit", "Plastik"]
   },
   {
     id: 2,
-    name: "E-Money & Plaza",
-    description: "Cetak custom e-money, kartu akses, dan kartu member",
-    icon: "credit-card"
+    slug: "custom-merchandise",
+    name: "Custom Merchandise",
+    tagline: "Branding Berkelas untuk Bisnis",
+    description: "Wujudkan identitas brand dengan merchandise berkualitas premium dan desain eksklusif",
+    longDescription: "Dari tumbler eksklusif hingga lanyard berkelas, kami menciptakan merchandise yang merepresentasikan nilai premium brand Anda.",
+    icon: "Sparkles",
+    image: "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=1200&q=85",
+    features: ["Desain eksklusif custom", "Material premium pilihan", "Kualitas korporat", "Minimum order fleksibel"],
+    materials: ["Tumbler", "Lanyard", "T-shirt", "Tote Bag", "Mug", "Notebook"]
   },
   {
     id: 3,
-    name: "Lanyard Custom",
-    description: "Lanyard dengan desain custom untuk event, kampus, dan perusahaan",
-    icon: "badge"
+    slug: "large-format",
+    name: "Large Format Printing",
+    tagline: "Cetak Besar Resolusi Tinggi",
+    description: "Banner, poster, dan signage berkualitas eksibisi dengan ukuran tanpa batas",
+    longDescription: "Cetak format besar untuk kebutuhan exhibition, retail signage, dan poster event dengan kualitas yang setara museum-grade printing.",
+    icon: "Maximize",
+    image: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=1200&q=85",
+    features: ["Hingga 1.6m lebar", "Resolusi 1440 DPI", "Tinta archival quality", "Berbagai finishing premium"],
+    materials: ["Vinyl", "Canvas", "Backlit", "Mesh", "Photo Paper", "Fabric"]
   },
   {
     id: 4,
-    name: "Tumbler Custom",
-    description: "Tumbler dengan print custom berkualitas tinggi",
-    icon: "coffee"
+    slug: "premium-cards",
+    name: "Premium Card Print",
+    tagline: "Kartu Eksklusif Berkelas",
+    description: "Kartu nama, undangan, dan member card dengan finishing mewah",
+    longDescription: "Cetak kartu dengan teknik premium: hot stamping, embossing, spot UV, dan letterpress untuk impression yang tak terlupakan.",
+    icon: "CreditCard",
+    image: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=1200&q=85",
+    features: ["Hot stamping gold/silver", "Embossing & debossing", "Spot UV finishing", "Material art carton 350gsm"],
+    materials: ["Art Carton", "Linen Paper", "Black Card", "Metallic", "PVC Premium"]
   },
   {
     id: 5,
-    name: "Akrilik Custom",
-    description: "Produk akrilik custom untuk display, plakat, dan dekorasi",
-    icon: "frame"
+    slug: "acrylic-display",
+    name: "Acrylic & Display",
+    tagline: "Display Premium untuk Brand",
+    description: "Plakat, signage, dan display akrilik dengan UV printing langsung",
+    longDescription: "Produk akrilik premium untuk corporate awards, retail display, dan dekorasi office dengan finishing crystal-clear.",
+    icon: "Layers",
+    image: "https://images.unsplash.com/photo-1624969862644-791f3dc98927?w=1200&q=85",
+    features: ["Akrilik impor 5-10mm", "UV direct printing", "Custom shape & ukuran", "Crystal clear finishing"],
+    materials: ["Akrilik Bening", "Akrilik Frosted", "Akrilik Warna", "Mirror Acrylic"]
   },
   {
     id: 6,
-    name: "Kartu Premium",
-    description: "Cetak kartu nama, kartu undangan dengan material premium",
-    icon: "contact"
+    slug: "cutting-sticker",
+    name: "Precision Cutting",
+    tagline: "Stiker & Label Presisi Tinggi",
+    description: "Cutting stiker dengan presisi laser untuk branding sempurna",
+    longDescription: "Teknologi cutting plotter terkini untuk hasil potongan presisi 0.1mm. Cocok untuk branding kendaraan, packaging label, dan dekorasi.",
+    icon: "Scissors",
+    image: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2b5?w=1200&q=85",
+    features: ["Presisi 0.1mm", "Anti air & UV resistant", "Custom shape unlimited", "Material vinyl premium"],
+    materials: ["Vinyl Glossy", "Vinyl Matte", "Holographic", "Reflective", "Transparent"]
   },
   {
     id: 7,
-    name: "Cetak A3 & Besar",
-    description: "Cetak dokumen dan poster ukuran besar dengan hasil maksimal",
-    icon: "file-text"
+    slug: "photo-print",
+    name: "Fine Art Photo Print",
+    tagline: "Cetak Foto Galeri Kualitas",
+    description: "Cetak foto dengan kualitas museum-grade untuk display premium",
+    longDescription: "Cetak foto menggunakan archival inks dan fine art paper untuk menghasilkan output dengan rentang warna luar biasa dan ketahanan 100+ tahun.",
+    icon: "Image",
+    image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1200&q=85",
+    features: ["Archival pigment inks", "Fine art paper premium", "Color management profesional", "Frame & matting premium"],
+    materials: ["Glossy Paper", "Matte Paper", "Canvas", "Metal Print", "Fine Art Paper"]
   },
   {
     id: 8,
-    name: "Cutting Stiker",
-    description: "Potong stiker dengan presisi tinggi untuk branding dan dekorasi",
-    icon: "scissors"
-  },
-  {
-    id: 9,
-    name: "Desain Custom",
-    description: "Layanan desain profesional untuk berbagai kebutuhan",
-    icon: "palette"
-  },
-  {
-    id: 10,
-    name: "Cetak Foto Studio",
-    description: "Cetak foto dengan kualitas studio untuk berbagai ukuran",
-    icon: "image"
-  },
-  {
-    id: 11,
-    name: "Merchandise",
-    description: "Produk merchandise untuk promosi dan branding perusahaan",
-    icon: "shopping-bag"
-  },
-  {
-    id: 12,
-    name: "Event & Acara",
-    description: "Paket lengkap untuk kebutuhan event dan acara besar",
-    icon: "calendar"
-  }
-];
-
-export const popularProducts = [
-  {
-    id: 1,
-    name: "Stiker Vinyl Premium",
-    category: "Stiker",
-    price: "Mulai dari Rp 5.000",
-    pricePerUnit: 5000,
-    unit: "per lembar",
-    features: ["Anti air", "Tahan lama", "Warna tajam", "Cocok outdoor"],
-    image: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2b5?w=500&q=80"
-  },
-  {
-    id: 2,
-    name: "Tumbler Custom Print",
-    category: "Tumbler",
-    price: "Mulai dari Rp 45.000",
-    pricePerUnit: 45000,
-    unit: "per pcs",
-    features: ["Material premium", "Print full color", "Tahan panas", "Custom desain"],
-    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&q=80"
-  },
-  {
-    id: 3,
-    name: "Lanyard ID Card",
-    category: "Lanyard",
-    price: "Mulai dari Rp 8.000",
-    pricePerUnit: 8000,
-    unit: "per pcs",
-    features: ["Material kuat", "Print 2 sisi", "Hook berkualitas", "Min order 50 pcs"],
-    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=500&q=80"
-  },
-  {
-    id: 4,
-    name: "Cetak Foto Glossy",
-    category: "Foto",
-    price: "Mulai dari Rp 3.000",
-    pricePerUnit: 3000,
-    unit: "per lembar 4R",
-    features: ["Kualitas HD", "Paper glossy", "Warna natural", "Tahan lama"],
-    image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=500&q=80"
-  },
-  {
-    id: 5,
-    name: "Kartu Nama Premium",
-    category: "Kartu",
-    price: "Mulai dari Rp 50.000",
-    pricePerUnit: 50000,
-    unit: "per 100 lembar",
-    features: ["Art carton 310gsm", "Laminasi doff/glossy", "Cetak 2 sisi", "Desain gratis"],
-    image: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=500&q=80"
-  },
-  {
-    id: 6,
-    name: "Plakat Akrilik Custom",
-    category: "Akrilik",
-    price: "Mulai dari Rp 75.000",
-    pricePerUnit: 75000,
-    unit: "per pcs",
-    features: ["Akrilik tebal 5mm", "UV print", "Custom shape", "Stand included"],
-    image: "https://images.unsplash.com/photo-1624969862644-791f3dc98927?w=500&q=80"
+    slug: "design-service",
+    name: "Creative Design",
+    tagline: "Desain Eksklusif Senior Designer",
+    description: "Layanan desain profesional untuk brand identity dan kebutuhan cetak",
+    longDescription: "Tim senior designer kami siap mewujudkan visi brand Anda dengan desain yang memorable, distinctive, dan sesuai market positioning.",
+    icon: "Palette",
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=1200&q=85",
+    features: ["Senior designer expert", "Unlimited revisions", "Source file included", "Brand consultation"],
+    materials: ["Logo Design", "Brand Identity", "Print Layout", "Packaging", "Illustration"]
   }
 ];
 
 export const portfolioItems = [
   {
     id: 1,
-    title: "Custom Tumbler Perusahaan",
-    category: "Tumbler",
-    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&q=80",
-    client: "PT. Mandiri Sejahtera"
+    title: "Corporate Gift Box Premium",
+    category: "Merchandise",
+    client: "PT. Mandiri Sejahtera",
+    year: "2024",
+    description: "Custom corporate gift dengan tumbler titanium, lanyard premium, dan notebook eksklusif untuk 500 karyawan top performer.",
+    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=1600&q=90",
+    tags: ["Corporate", "Premium", "Gift"]
   },
   {
     id: 2,
-    title: "Stiker Branding Cafe",
-    category: "Stiker",
-    image: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2b5?w=800&q=80",
-    client: "Kopi Nusantara"
+    title: "Luxury Wedding Invitation",
+    category: "Premium Cards",
+    client: "Adinata & Sariputri",
+    year: "2024",
+    description: "Undangan pernikahan dengan hot stamping gold, embossing, dan material textured paper premium dengan amplop velvet.",
+    image: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=1600&q=90",
+    tags: ["Wedding", "Luxury", "Gold Foil"]
   },
   {
     id: 3,
-    title: "Lanyard Event Nasional",
-    category: "Lanyard",
-    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&q=80",
-    client: "Indonesia Tech Summit 2024"
+    title: "Exhibition Banner & Display",
+    category: "Large Format",
+    client: "Indonesia Tech Summit",
+    year: "2024",
+    description: "Banner, backdrop, dan signage untuk event tech summit nasional dengan total 200+ piece dalam 2 minggu pengerjaan.",
+    image: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=1600&q=90",
+    tags: ["Event", "Large Scale", "Corporate"]
   },
   {
     id: 4,
-    title: "Kartu Nama Eksekutif",
-    category: "Kartu",
-    image: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=800&q=80",
-    client: "Law Firm Associates"
+    title: "Boutique Cafe Branding",
+    category: "Stiker & Label",
+    client: "Koffie Brewers",
+    year: "2024",
+    description: "Full branding package: cup sticker, packaging label, menu, dan signage untuk pembukaan flagship store di Jakarta.",
+    image: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2b5?w=1600&q=90",
+    tags: ["F&B", "Branding", "Sticker"]
   },
   {
     id: 5,
-    title: "Plakat Penghargaan",
+    title: "Award Plaque Collection",
     category: "Akrilik",
-    image: "https://images.unsplash.com/photo-1624969862644-791f3dc98927?w=800&q=80",
-    client: "Universitas Indonesia"
+    client: "Universitas Indonesia",
+    year: "2024",
+    description: "Koleksi plakat penghargaan untuk graduation ceremony dengan UV print 3D, akrilik 10mm, dan engraving gold.",
+    image: "https://images.unsplash.com/photo-1624969862644-791f3dc98927?w=1600&q=90",
+    tags: ["Education", "Award", "Premium"]
   },
   {
     id: 6,
-    title: "Cetak Foto Wedding",
-    category: "Foto",
-    image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&q=80",
-    client: "Private Client"
+    title: "Fine Art Photography",
+    category: "Photo Print",
+    client: "Galeri Nasional",
+    year: "2024",
+    description: "Cetak foto fine art untuk pameran fotografi dengan paper premium dan framing eksklusif ukuran besar.",
+    image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1600&q=90",
+    tags: ["Art", "Gallery", "Fine Art"]
   },
   {
     id: 7,
-    title: "Merchandise Event",
+    title: "Music Festival Merchandise",
     category: "Merchandise",
-    image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80",
-    client: "Music Festival 2024"
+    client: "Soundscape Festival",
+    year: "2024",
+    description: "Custom merchandise lengkap: tumbler, lanyard VIP, tote bag, dan t-shirt untuk festival musik nasional 50.000 attendees.",
+    image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=1600&q=90",
+    tags: ["Event", "Music", "Merchandise"]
   },
   {
     id: 8,
-    title: "Custom E-Money Card",
-    category: "Kartu",
-    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80",
-    client: "Bank Digital Indonesia"
+    title: "Hotel Premium Stationery",
+    category: "Premium Cards",
+    client: "Grand Aston Hotel",
+    year: "2024",
+    description: "Premium stationery set: kartu nama eksekutif, note pad, envelope dengan emboss logo dan letterpress.",
+    image: "https://images.unsplash.com/photo-1568303479875-b96a014a9bcd?w=1600&q=90",
+    tags: ["Hospitality", "Stationery", "Premium"]
   },
   {
     id: 9,
-    title: "Banner & Poster A3",
-    category: "Cetak Besar",
-    image: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=800&q=80",
-    client: "Grand Opening Store"
+    title: "Custom Tumbler Series",
+    category: "Merchandise",
+    client: "Various Brands",
+    year: "2024",
+    description: "Koleksi tumbler custom dengan UV printing full color untuk berbagai brand corporate dan personal gift.",
+    image: "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=1600&q=90",
+    tags: ["Tumbler", "Custom", "Gift"]
   }
 ];
 
-export const whyChooseUs = [
-  {
-    id: 1,
-    title: "Premium Quality",
-    description: "Hasil cetak berkualitas tinggi dengan warna tajam dan tahan lama",
-    icon: "award"
-  },
-  {
-    id: 2,
-    title: "Harga Terjangkau",
-    description: "Harga bersaing dengan kualitas terbaik di kelasnya",
-    icon: "tag"
-  },
-  {
-    id: 3,
-    title: "Proses Cepat",
-    description: "Pengerjaan cepat tanpa mengurangi kualitas hasil",
-    icon: "zap"
-  },
-  {
-    id: 4,
-    title: "1 Hari Jadi",
-    description: "Layanan express untuk kebutuhan mendesak Anda",
-    icon: "clock"
-  },
-  {
-    id: 5,
-    title: "Desain Gratis",
-    description: "Free desain custom untuk pemesanan tertentu",
-    icon: "palette"
-  },
-  {
-    id: 6,
-    title: "Tahan Lama",
-    description: "Material premium dan teknologi printing terkini",
-    icon: "shield-check"
-  }
+export const stats = [
+  { value: 12, suffix: "+", label: "Tahun Pengalaman", description: "Mendedikasikan diri untuk kualitas" },
+  { value: 5000, suffix: "+", label: "Klien Terlayani", description: "Brand & individual di seluruh Indonesia" },
+  { value: 50000, suffix: "+", label: "Project Selesai", description: "Dari kartu nama hingga eksibisi" },
+  { value: 98, suffix: "%", label: "Klien Puas", description: "Rating dari customer survey kami" }
 ];
 
 export const testimonials = [
   {
     id: 1,
-    name: "Budi Santoso",
-    role: "Owner Cafe Kopi Nusantara",
-    content: "Pelayanan sangat memuaskan! Stiker untuk branding cafe saya kualitasnya luar biasa dan tahan lama. Harga juga bersahabat.",
+    name: "Sarah Anggraini",
+    role: "Creative Director, Studio Visual",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
+    content: "Impress Print bukan sekedar percetakan. Mereka partner kreatif yang memahami visi brand kami. Setiap project selalu melebihi ekspektasi.",
     rating: 5
   },
   {
     id: 2,
-    name: "Sarah Wijaya",
-    role: "Event Organizer",
-    content: "Sudah beberapa kali order lanyard dan merchandise untuk event. Selalu tepat waktu dan hasilnya sesuai ekspektasi. Recommended!",
+    name: "Ahmad Rifqi",
+    role: "Marketing Head, PT. Mandiri Sejahtera",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+    content: "Dari kartu nama eksekutif hingga corporate gift untuk 500 karyawan, semua dikerjakan dengan standar premium dan presisi luar biasa.",
     rating: 5
   },
   {
     id: 3,
-    name: "Ahmad Hidayat",
-    role: "Marketing Manager PT. Maju Jaya",
-    content: "Tumbler custom untuk corporate gift perusahaan hasilnya premium. Tim Impress Print sangat membantu dalam proses desain.",
+    name: "Maya Putri",
+    role: "Wedding Planner, Bali Elegance",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80",
+    content: "Undangan dari Impress Print selalu jadi conversation starter di setiap event. Kualitas hot stamping dan embossing mereka tidak ada duanya.",
     rating: 5
+  }
+];
+
+export const teamMembers = [
+  {
+    id: 1,
+    name: "Adrian Mahendra",
+    role: "Founder & Creative Director",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=85",
+    bio: "15+ tahun pengalaman di industri printing premium dan brand strategy"
+  },
+  {
+    id: 2,
+    name: "Diana Sari",
+    role: "Senior Production Manager",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=85",
+    bio: "Expert dalam quality control dan workflow produksi skala besar"
+  },
+  {
+    id: 3,
+    name: "Reza Pratama",
+    role: "Head of Design",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&q=85",
+    bio: "Award-winning designer dengan portfolio brand multinasional"
+  },
+  {
+    id: 4,
+    name: "Linda Kusuma",
+    role: "Client Relations Director",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&q=85",
+    bio: "Memastikan setiap klien mendapat pengalaman eksklusif"
+  }
+];
+
+export const milestones = [
+  { year: "2012", title: "Awal Mula", description: "Impress Print didirikan dengan visi menghadirkan standar baru dalam dunia percetakan Indonesia" },
+  { year: "2015", title: "Ekspansi Pertama", description: "Membuka studio baru dan investasi mesin UV printing pertama di Jakarta" },
+  { year: "2018", title: "1000+ Klien", description: "Melayani lebih dari 1000 klien termasuk brand multinasional dan startup unicorn" },
+  { year: "2021", title: "Tech Upgrade", description: "Investasi teknologi mesin cetak terbaru untuk kapasitas produksi 10x lipat" },
+  { year: "2024", title: "Premium Brand", description: "Established sebagai premium printing partner untuk brand-brand papan atas Indonesia" }
+];
+
+export const values = [
+  {
+    title: "Premium Quality",
+    description: "Setiap detail kami perlakukan seperti karya seni. Kualitas adalah prioritas utama yang tidak bisa dikompromi.",
+    icon: "Gem"
+  },
+  {
+    title: "Innovation",
+    description: "Selalu update dengan teknologi terbaru untuk menghadirkan possibilities yang sebelumnya tidak terbayangkan.",
+    icon: "Lightbulb"
+  },
+  {
+    title: "Partnership",
+    description: "Kami bukan sekedar vendor. Kami partner kreatif yang memahami dan tumbuh bersama brand Anda.",
+    icon: "Handshake"
+  },
+  {
+    title: "Excellence",
+    description: "Standar excellence dalam setiap proses, dari konsultasi hingga produk akhir di tangan klien.",
+    icon: "Award"
   }
 ];
 
 export const contactInfo = {
   phone: "0822-1928-1947",
   whatsapp: "6282219281947",
-  email: "info@impressprint.com",
-  address: "Jl. Printing Street No. 123, Jakarta",
-  hours: "Senin - Sabtu: 08.00 - 20.00 WIB"
+  email: "hello@impressprint.id",
+  address: "Jl. Printing Premium No. 88, Jakarta Selatan",
+  hours: {
+    weekday: "Senin - Jumat: 08.00 - 20.00 WIB",
+    saturday: "Sabtu: 09.00 - 17.00 WIB",
+    sunday: "Minggu: By Appointment"
+  },
+  social: {
+    instagram: "@impressprint.id",
+    facebook: "Impress Print Indonesia",
+    tiktok: "@impressprint"
+  }
 };
+
+export const logoUrl = "https://customer-assets.emergentagent.com/job_5ced007f-7aeb-4b78-90f4-b067c2c93029/artifacts/40mm9xuj_WhatsApp%20Image%202026-05-23%20at%2022.24.23.jpeg";

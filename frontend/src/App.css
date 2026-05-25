@@ -1,25 +1,19 @@
 .App {
   min-height: 100vh;
+  background-color: #F5F1EA;
 }
 
-html {
-  scroll-behavior: smooth;
+/* Smooth page transitions */
+.page-content {
+  min-height: 100vh;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
+/* Remove default focus outline, replace with custom */
+:focus-visible {
+  outline: 2px solid #D4AF37;
+  outline-offset: 4px;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #FF6B35;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #e55a24;
+button, a {
+  -webkit-tap-highlight-color: transparent;
 }
