@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import {
@@ -23,6 +23,7 @@ const handleWhatsApp = (msg) => {
 // ============ HERO SECTION ============
 const HeroSection = () => {
   const heroRef = useRef(null);
+  const navigate = useNavigate();
   const { scrollYProgress } = useScroll({ target: heroRef, offset: ['start start', 'end start'] });
   const y = useTransform(scrollYProgress, [0, 1], [0, 200]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
@@ -88,12 +89,12 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row gap-4"
             >
               <button
-                onClick={() => handleWhatsApp()}
+                onClick={() => navigate('/order')}
                 data-testid="hero-cta-konsultasi"
                 className="magnetic-btn group relative px-10 py-5 bg-[#D4AF37] text-black overflow-hidden"
               >
                 <span className="relative z-10 flex items-center gap-3 text-sm tracking-[0.25em] uppercase font-medium">
-                  Mulai Konsultasi
+                  Pesan Sekarang
                   <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform duration-500" />
                 </span>
               </button>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { logoUrl, contactInfo } from '../mock';
@@ -9,6 +9,7 @@ const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'Services', path: '/services' },
   { name: 'Portfolio', path: '/portfolio' },
+  { name: 'Order', path: '/order' },
   { name: 'About', path: '/about' },
   { name: 'Contact', path: '/contact' }
 ];
@@ -17,6 +18,7 @@ const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40);
@@ -59,7 +61,7 @@ const Header = () => {
               </div>
             </Link>
 
-            <nav className="hidden lg:flex items-center gap-12">
+            <nav className="hidden lg:flex items-center gap-8 xl:gap-10">
               {navLinks.map((link) => (
                 <NavLink
                   key={link.path}
@@ -78,11 +80,11 @@ const Header = () => {
 
             <div className="hidden lg:block">
               <button
-                onClick={handleWhatsApp}
+                onClick={() => navigate('/order')}
                 data-testid="header-cta-button"
-                className="magnetic-btn relative px-7 py-3 border border-[#D4AF37] text-[#D4AF37] hover:text-black hover:bg-[#D4AF37] text-xs tracking-[0.25em] uppercase font-medium transition-all duration-500 group"
+                className="magnetic-btn relative px-7 py-3 bg-[#D4AF37] text-black hover:bg-[#E8C766] text-xs tracking-[0.25em] uppercase font-semibold transition-all duration-500 group"
               >
-                <span className="relative z-10">Konsultasi</span>
+                <span className="relative z-10">Pesan Sekarang</span>
               </button>
             </div>
 
@@ -129,9 +131,18 @@ const Header = () => {
               <motion.button
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.45 }}
+                onClick={() => { navigate('/order'); setMobileOpen(false); }}
+                className="mt-6 px-8 py-3 bg-[#D4AF37] text-black text-sm tracking-[0.25em] uppercase font-semibold"
+              >
+                Pesan Sekarang
+              </motion.button>
+              <motion.button
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
                 onClick={handleWhatsApp}
-                className="mt-6 px-8 py-3 border border-[#D4AF37] text-[#D4AF37] text-sm tracking-[0.25em] uppercase"
+                className="px-8 py-3 border border-[#D4AF37] text-[#D4AF37] text-sm tracking-[0.25em] uppercase"
               >
                 Konsultasi WhatsApp
               </motion.button>
