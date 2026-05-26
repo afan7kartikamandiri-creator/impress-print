@@ -241,9 +241,9 @@ export const teamMembers = [
   },
   {
     id: 3,
-    name: "Reza Pratama",
+    name: "Nadya Zulfahana",
     role: "Head of Design",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&q=85",
+    image: "https://customer-assets.emergentagent.com/job_impress-print-2/artifacts/y7dwalia_WhatsApp%20Image%202026-05-26%20at%2016.24.42.jpeg",
     bio: "Award-winning designer dengan portfolio brand multinasional"
   },
   {
