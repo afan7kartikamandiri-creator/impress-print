@@ -6,12 +6,12 @@ import {
 } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import { services, contactInfo } from '../mock';
+import { openWhatsApp } from '../utils/whatsapp';
 
 const iconMap = { Printer, Sparkles, Maximize, CreditCard, Layers, Scissors, Image: ImageIcon, Palette };
 
 const handleWhatsApp = (msg) => {
-  const text = msg || 'Halo Impress Print, saya ingin konsultasi layanan';
-  window.open(`https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(text)}`, '_blank');
+  openWhatsApp(msg);
 };
 
 const ServicesHero = () => (

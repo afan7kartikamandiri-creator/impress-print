@@ -10,14 +10,14 @@ import PageTransition from '../components/PageTransition';
 import AnimatedCounter from '../components/AnimatedCounter';
 import BeforeAfterSlider from '../components/BeforeAfterSlider';
 import { services, stats, testimonials, portfolioItems, contactInfo, beforeAfterShowcase } from '../mock';
+import { openWhatsApp } from '../utils/whatsapp';
 
 const iconMap = {
   Printer, Sparkles, Maximize, CreditCard, Layers, Scissors, Image: ImageIcon, Palette
 };
 
 const handleWhatsApp = (msg) => {
-  const text = msg || 'Halo Impress Print, saya ingin konsultasi premium printing';
-  window.open(`https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(text)}`, '_blank');
+  openWhatsApp(msg);
 };
 
 // ============ HERO SECTION ============

@@ -3,12 +3,12 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight, Gem, Lightbulb, Handshake, Award } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import { teamMembers, milestones, values, contactInfo } from '../mock';
+import { openWhatsApp } from '../utils/whatsapp';
 
 const iconMap = { Gem, Lightbulb, Handshake, Award };
 
 const handleWhatsApp = (msg) => {
-  const text = msg || 'Halo Impress Print';
-  window.open(`https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(text)}`, '_blank');
+  openWhatsApp(msg);
 };
 
 const AboutHero = () => (

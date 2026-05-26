@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight, Phone, Mail, MapPin, Clock, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import { contactInfo } from '../mock';
+import { openWhatsApp } from '../utils/whatsapp';
 
 const handleWhatsApp = (msg) => {
-  window.open(`https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
+  openWhatsApp(msg);
 };
 
 const ContactHero = () => (

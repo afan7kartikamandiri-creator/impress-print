@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, X, Phone } from 'lucide-react';
 import { contactInfo } from '../mock';
+import { openWhatsApp } from '../utils/whatsapp';
 
 const WhatsAppFloat = () => {
   const [expanded, setExpanded] = useState(false);
 
   const handleChat = (message) => {
-    const msg = message || 'Halo Impress Print, saya ingin konsultasi mengenai layanan cetak premium';
-    window.open(`https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
+    openWhatsApp(message);
   };
 
   return (

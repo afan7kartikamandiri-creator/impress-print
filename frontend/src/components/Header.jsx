@@ -3,6 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { logoUrl, contactInfo } from '../mock';
+import { openWhatsApp } from '../utils/whatsapp';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -28,7 +29,7 @@ const Header = () => {
   }, [location.pathname]);
 
   const handleWhatsApp = () => {
-    window.open(`https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent('Halo Impress Print, saya ingin konsultasi')}`, '_blank');
+    openWhatsApp('Halo Impress Print, saya ingin konsultasi');
   };
 
   return (

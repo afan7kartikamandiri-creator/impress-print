@@ -5,10 +5,10 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 import PageTransition from '../components/PageTransition';
 import { portfolioItems, contactInfo } from '../mock';
+import { openWhatsApp } from '../utils/whatsapp';
 
 const handleWhatsApp = (msg) => {
-  const text = msg || 'Halo Impress Print, saya tertarik dengan portfolio Anda';
-  window.open(`https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(text)}`, '_blank');
+  openWhatsApp(msg);
 };
 
 const PortfolioHero = () => (
