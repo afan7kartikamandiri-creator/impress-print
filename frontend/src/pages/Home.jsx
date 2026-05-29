@@ -89,12 +89,12 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row gap-4"
             >
               <button
-                onClick={() => navigate('/order')}
+                onClick={() => openWhatsApp('Halo Impress Print, saya ingin claim konsultasi gratis')}
                 data-testid="hero-cta-konsultasi"
                 className="magnetic-btn group relative px-10 py-5 bg-[#D4AF37] text-black overflow-hidden"
               >
                 <span className="relative z-10 flex items-center gap-3 text-sm tracking-[0.25em] uppercase font-medium">
-                  Pesan Sekarang
+                  Claim Konsultasi Gratis
                   <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform duration-500" />
                 </span>
               </button>
