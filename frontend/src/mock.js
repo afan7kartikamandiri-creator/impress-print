@@ -67,7 +67,7 @@ export const services = [
     description: "Cutting stiker dengan presisi laser untuk branding sempurna",
     longDescription: "Teknologi cutting plotter terkini untuk hasil potongan presisi 0.1mm. Cocok untuk branding kendaraan, packaging label, dan dekorasi.",
     icon: "Scissors",
-    image: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2b5?w=1200&q=85",
+    image: "/assets/sticker-parfume-design.jpg",
     features: ["Presisi 0.1mm", "Anti air & UV resistant", "Custom shape unlimited", "Material vinyl premium"],
     materials: ["Vinyl Glossy", "Vinyl Matte", "Holographic", "Reflective", "Transparent"]
   },
@@ -135,7 +135,7 @@ export const portfolioItems = [
     client: "Koffie Brewers",
     year: "2024",
     description: "Full branding package: cup sticker, packaging label, menu, dan signage untuk pembukaan flagship store di Jakarta.",
-    image: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2b5?w=1600&q=90",
+    image: "/assets/sticker-parfume-design.jpg",
     tags: ["F&B", "Branding", "Sticker"]
   },
   {
@@ -329,8 +329,8 @@ export const beforeAfterShowcase = [
     title: "Branding Kafe Boutique",
     category: "Sticker & Label",
     description: "Cup polos & packaging plain bertransformasi menjadi branding kafe yang Instagram-worthy.",
-    before: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1200&q=85",
-    after: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2b5?w=1200&q=85"
+    before: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/8wumps9x_Meitaat%20200%20St%C3%BCck%20Aufkleber%20Wei%C3%9F%20Selbstklebend%20Etiketten%20Umzug%2012%2C7%20%C3%97%207%2C6%20cm%20Rechteckig%20Sticker%20Rolle%20Abl%C3%B6sbar%20Wei%C3%9F.jpg",
+    after: "/assets/sticker-parfume-design.jpg"
   },
   {
     id: 4,
