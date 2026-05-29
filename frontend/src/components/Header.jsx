@@ -80,11 +80,11 @@ const Header = () => {
 
             <div className="hidden lg:block">
               <button
-                onClick={() => navigate('/order')}
+                onClick={() => openWhatsApp('Halo Impress Print, saya ingin claim konsultasi gratis')}
                 data-testid="header-cta-button"
                 className="magnetic-btn relative px-7 py-3 bg-[#D4AF37] text-black hover:bg-[#E8C766] text-xs tracking-[0.25em] uppercase font-semibold transition-all duration-500 group"
               >
-                <span className="relative z-10">Pesan Sekarang</span>
+                <span className="relative z-10">Claim Konsultasi Gratis</span>
               </button>
             </div>
 
@@ -132,10 +132,10 @@ const Header = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.45 }}
-                onClick={() => { navigate('/order'); setMobileOpen(false); }}
+                onClick={() => { openWhatsApp('Halo Impress Print, saya ingin claim konsultasi gratis'); setMobileOpen(false); }}
                 className="mt-6 px-8 py-3 bg-[#D4AF37] text-black text-sm tracking-[0.25em] uppercase font-semibold"
               >
-                Pesan Sekarang
+                Claim Konsultasi Gratis
               </motion.button>
               <motion.button
                 initial={{ opacity: 0, y: 20 }}
