@@ -79,7 +79,7 @@ export const services = [
     description: "Layanan desain profesional untuk brand identity dan kebutuhan cetak",
     longDescription: "Tim senior designer kami siap mewujudkan visi brand Anda dengan desain yang memorable, distinctive, dan sesuai market positioning.",
     icon: "Palette",
-    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=1200&q=85",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/ar2u8uzt_Fast%20Graphic%20Design%20Service.jpg",
     features: ["Senior designer expert", "Unlimited revisions", "Source file included", "Brand consultation"],
     materials: ["Logo Design", "Brand Identity", "Print Layout", "Packaging", "Illustration"]
   }
