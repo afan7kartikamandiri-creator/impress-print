@@ -148,13 +148,13 @@ export const portfolioItems = [
   },
   {
     id: 7,
-    title: "Custom Tumbler Series",
-    category: "Merchandise",
-    client: "Various Brands",
+    title: "Kalender Korporat Premium",
+    category: "Large Format",
+    client: "Ilham Jaya Group",
     year: "2024",
-    description: "Koleksi tumbler custom dengan UV printing full color untuk berbagai brand corporate dan personal gift.",
-    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/byy357aa_WhatsApp%20Image%202026-05-29%20at%2014.17.31.jpeg",
-    tags: ["Tumbler", "Custom", "Gift"]
+    description: "Kalender korporat tahunan dengan desain eksklusif full color, ilustrasi skyline custom, dan layout dua bulan per halaman untuk Ilham Jaya Group beserta anak perusahaannya.",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/tpermrtu_WhatsApp%20Image%202026-05-28%20at%2016.39.00.jpeg",
+    tags: ["Corporate", "Kalender", "Premium"]
   }
 ];
 
