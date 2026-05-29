@@ -31,7 +31,7 @@ export const services = [
     description: "Banner, poster, dan signage berkualitas eksibisi dengan ukuran tanpa batas",
     longDescription: "Cetak format besar untuk kebutuhan exhibition, retail signage, dan poster event dengan kualitas yang setara museum-grade printing.",
     icon: "Maximize",
-    image: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=1200&q=85",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/og8nebfi_Corporate%20Roll%20Up%20Banner%20Preview.jpg",
     features: ["Hingga 1.6m lebar", "Resolusi 1440 DPI", "Tinta archival quality", "Berbagai finishing premium"],
     materials: ["Vinyl", "Canvas", "Backlit", "Mesh", "Photo Paper", "Fabric"]
   },
@@ -125,7 +125,7 @@ export const portfolioItems = [
     client: "Indonesia Tech Summit",
     year: "2024",
     description: "Banner, backdrop, dan signage untuk event tech summit nasional dengan total 200+ piece dalam 2 minggu pengerjaan.",
-    image: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=1600&q=90",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/og8nebfi_Corporate%20Roll%20Up%20Banner%20Preview.jpg",
     tags: ["Event", "Large Scale", "Corporate"]
   },
   {
