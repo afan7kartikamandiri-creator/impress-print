@@ -175,28 +175,30 @@ const TeamSection = () => (
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 max-w-5xl mx-auto">
         {teamMembers.map((member, i) => (
           <motion.div
             key={member.id}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: i * 0.1 }}
+            transition={{ duration: 0.7, delay: i * 0.15 }}
             className="group"
             data-testid={`team-member-${member.id}`}
           >
-            <div className="relative aspect-[3/4] overflow-hidden mb-6 bg-[#D4AF37]/10">
+            <div className="relative aspect-[4/5] overflow-hidden mb-8 bg-[#D4AF37]/10">
               <img
                 src={member.image}
                 alt={member.name}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.2s]"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute top-6 left-6 w-12 h-px bg-[#D4AF37]" />
             </div>
-            <h3 className="font-serif text-2xl text-white mb-1">{member.name}</h3>
-            <p className="text-[#D4AF37] text-sm tracking-wider uppercase mb-3">{member.role}</p>
-            <p className="text-white/50 text-sm font-light leading-relaxed">{member.bio}</p>
+            <div className="text-xs tracking-[0.3em] uppercase text-[#D4AF37] mb-3">— 0{i + 1}</div>
+            <h3 className="font-serif text-white text-3xl lg:text-4xl mb-2" style={{ letterSpacing: '-0.01em' }}>{member.name}</h3>
+            <p className="text-[#D4AF37] text-sm tracking-[0.2em] uppercase mb-4">{member.role}</p>
+            <p className="text-white/60 text-base font-light leading-relaxed max-w-md">{member.bio}</p>
           </motion.div>
         ))}
       </div>

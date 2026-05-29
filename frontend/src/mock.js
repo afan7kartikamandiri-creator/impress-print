@@ -195,31 +195,17 @@ export const testimonials = [
 export const teamMembers = [
   {
     id: 1,
-    name: "Adrian Mahendra",
-    role: "Founder & Creative Director",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=85",
-    bio: "15+ tahun pengalaman di industri printing premium dan brand strategy"
-  },
-  {
-    id: 2,
-    name: "Diana Sari",
-    role: "Senior Production Manager",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=85",
-    bio: "Expert dalam quality control dan workflow produksi skala besar"
-  },
-  {
-    id: 3,
     name: "Nadya Zulfahana",
     role: "Head of Design",
     image: "https://customer-assets.emergentagent.com/job_impress-print-2/artifacts/y7dwalia_WhatsApp%20Image%202026-05-26%20at%2016.24.42.jpeg",
     bio: "Award-winning designer dengan portfolio brand multinasional"
   },
   {
-    id: 4,
-    name: "Linda Kusuma",
-    role: "Client Relations Director",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&q=85",
-    bio: "Memastikan setiap klien mendapat pengalaman eksklusif"
+    id: 2,
+    name: "Muhammad Ghatfhaan Abdillah",
+    role: "Head of Operations",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/yq3hj2ni_WhatsApp%20Image%202026-05-27%20at%2020.18.39.jpg",
+    bio: "Pemimpin operasional yang memastikan setiap project berjalan presisi end-to-end"
   }
 ];
 
