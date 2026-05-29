@@ -321,7 +321,7 @@ export const beforeAfterShowcase = [
     title: "Luxury Gift Hamper Tumbler",
     category: "Merchandise",
     description: "Tumbler polos diubah menjadi luxury gift hamper premium dengan UV print full color dan packaging eksklusif.",
-    before: "https://images.unsplash.com/photo-1572845759931-c0c0c4e7e0e0?w=1200&q=85",
+    before: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/ppglfhz3_1pc%20Stainless%20Steel%20Insulated%20Bottle.jpg",
     after: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/byy357aa_WhatsApp%20Image%202026-05-29%20at%2014.17.31.jpeg"
   },
   {
