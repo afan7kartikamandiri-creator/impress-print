@@ -143,7 +143,6 @@ ${formData.message}`;
                     <option value="Premium Cards">Premium Cards</option>
                     <option value="Akrilik">Akrilik & Display</option>
                     <option value="Cutting Sticker">Cutting Sticker</option>
-                    <option value="Photo Print">Fine Art Photo Print</option>
                     <option value="Design">Creative Design</option>
                     <option value="Lainnya">Lainnya</option>
                   </select>

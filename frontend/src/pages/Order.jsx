@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowRight, ArrowLeft, Check, Sparkles, Zap, Clock,
-  Printer, CreditCard, Coffee, Layers, Scissors, Image as ImageIcon, Palette, Maximize
+  Printer, CreditCard, Coffee, Layers, Scissors, Palette, Maximize
 } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import { contactInfo } from '../mock';
@@ -16,7 +16,6 @@ const productOptions = [
   { id: 'akrilik', name: 'Akrilik & Display', icon: Layers, desc: 'Plakat, signage, display' },
   { id: 'large-format', name: 'Banner & Poster', icon: Maximize, desc: 'A3, A2, banner besar' },
   { id: 'sticker', name: 'Cutting Stiker', icon: Scissors, desc: 'Stiker custom presisi' },
-  { id: 'photo', name: 'Cetak Foto', icon: ImageIcon, desc: 'Foto fine art' },
   { id: 'merch', name: 'Merchandise', icon: Sparkles, desc: 'Tote bag, t-shirt, dll' },
   { id: 'design', name: 'Jasa Desain', icon: Palette, desc: 'Desain custom oleh expert' },
   { id: 'lainnya', name: 'Lainnya', icon: Sparkles, desc: 'Konsultasi produk lain' }

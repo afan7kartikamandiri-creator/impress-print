@@ -7,7 +7,7 @@ export const services = [
     description: "Teknologi cetak UV terdepan untuk hasil presisi tinggi pada berbagai material premium",
     longDescription: "Mesin UV printing kami menggunakan teknologi LED-UV terkini yang mampu mencetak langsung pada material apapun dengan hasil warna yang vivid, tahan lama, dan presisi sempurna.",
     icon: "Printer",
-    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=85",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/d9c2t8jf_download%20%281%29.jpg",
     features: ["Cetak langsung di material", "Warna vivid & tajam", "Tahan UV & cuaca", "Kualitas presisi tinggi"],
     materials: ["Akrilik", "Kayu", "Logam", "Kaca", "Kulit", "Plastik"]
   },
@@ -73,18 +73,6 @@ export const services = [
   },
   {
     id: 7,
-    slug: "photo-print",
-    name: "Fine Art Photo Print",
-    tagline: "Cetak Foto Galeri Kualitas",
-    description: "Cetak foto dengan kualitas museum-grade untuk display premium",
-    longDescription: "Cetak foto menggunakan archival inks dan fine art paper untuk menghasilkan output dengan rentang warna luar biasa dan ketahanan 100+ tahun.",
-    icon: "Image",
-    image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1200&q=85",
-    features: ["Archival pigment inks", "Fine art paper premium", "Color management profesional", "Frame & matting premium"],
-    materials: ["Glossy Paper", "Matte Paper", "Canvas", "Metal Print", "Fine Art Paper"]
-  },
-  {
-    id: 8,
     slug: "design-service",
     name: "Creative Design",
     tagline: "Desain Eksklusif Senior Designer",
@@ -150,26 +138,6 @@ export const portfolioItems = [
   },
   {
     id: 6,
-    title: "Fine Art Photography",
-    category: "Photo Print",
-    client: "Galeri Nasional",
-    year: "2024",
-    description: "Cetak foto fine art untuk pameran fotografi dengan paper premium dan framing eksklusif ukuran besar.",
-    image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1600&q=90",
-    tags: ["Art", "Gallery", "Fine Art"]
-  },
-  {
-    id: 7,
-    title: "Music Festival Merchandise",
-    category: "Merchandise",
-    client: "Soundscape Festival",
-    year: "2024",
-    description: "Custom merchandise lengkap: tumbler, lanyard VIP, tote bag, dan t-shirt untuk festival musik nasional 50.000 attendees.",
-    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/byy357aa_WhatsApp%20Image%202026-05-29%20at%2014.17.31.jpeg",
-    tags: ["Event", "Music", "Merchandise"]
-  },
-  {
-    id: 8,
     title: "Hotel Premium Stationery",
     category: "Premium Cards",
     client: "Grand Aston Hotel",
@@ -179,7 +147,7 @@ export const portfolioItems = [
     tags: ["Hospitality", "Stationery", "Premium"]
   },
   {
-    id: 9,
+    id: 7,
     title: "Custom Tumbler Series",
     category: "Merchandise",
     client: "Various Brands",
