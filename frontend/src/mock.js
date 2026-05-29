@@ -43,7 +43,7 @@ export const services = [
     description: "Kartu nama, undangan, dan member card dengan finishing mewah",
     longDescription: "Cetak kartu dengan teknik premium: hot stamping, embossing, spot UV, dan letterpress untuk impression yang tak terlupakan.",
     icon: "CreditCard",
-    image: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=1200&q=85",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/ojj2h1uo_Old%20Money%20Wedding%20Invitation%20Suite%20Luxury%20Elegant%20Green%20%26%20Cream%20Wedding%20Stationery%20Canva%20Template.jpg",
     features: ["Hot stamping gold/silver", "Embossing & debossing", "Spot UV finishing", "Material art carton 350gsm"],
     materials: ["Art Carton", "Linen Paper", "Black Card", "Metallic", "PVC Premium"]
   },
@@ -112,10 +112,10 @@ export const portfolioItems = [
     id: 2,
     title: "Luxury Wedding Invitation",
     category: "Premium Cards",
-    client: "Adinata & Sariputri",
+    client: "Charlotte & Edward",
     year: "2024",
     description: "Undangan pernikahan dengan hot stamping gold, embossing, dan material textured paper premium dengan amplop velvet.",
-    image: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=1600&q=90",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/ojj2h1uo_Old%20Money%20Wedding%20Invitation%20Suite%20Luxury%20Elegant%20Green%20%26%20Cream%20Wedding%20Stationery%20Canva%20Template.jpg",
     tags: ["Wedding", "Luxury", "Gold Foil"]
   },
   {
@@ -314,7 +314,7 @@ export const beforeAfterShowcase = [
     category: "Premium Cards",
     description: "Transformasi dari desain biasa menjadi kartu nama dengan hot stamping gold, embossing, dan finishing premium.",
     before: "https://images.unsplash.com/photo-1606293459220-3a30c3989be5?w=1200&q=85",
-    after: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=1200&q=85"
+    after: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/ojj2h1uo_Old%20Money%20Wedding%20Invitation%20Suite%20Luxury%20Elegant%20Green%20%26%20Cream%20Wedding%20Stationery%20Canva%20Template.jpg"
   },
   {
     id: 2,
