@@ -138,7 +138,7 @@ ${formData.message}`;
                   >
                     <option value="">Pilih layanan</option>
                     <option value="UV Printing">UV Printing</option>
-                    <option value="Custom Merchandise">Custom Merchandise</option>
+                    <option value="Luxury Gift Hamper">Luxury Gift Hamper</option>
                     <option value="Large Format">Large Format Printing</option>
                     <option value="Premium Cards">Premium Cards</option>
                     <option value="Akrilik">Akrilik & Display</option>

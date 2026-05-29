@@ -79,7 +79,7 @@ const HeroSection = () => {
               className="text-white/70 text-lg md:text-xl max-w-2xl mb-12 font-light leading-relaxed"
             >
               Studio percetakan premium yang menghadirkan kualitas eksibisi untuk setiap detail.
-              Dari kartu nama eksekutif hingga merchandise corporate berskala besar.
+              Dari kartu nama eksekutif hingga luxury gift hamper berskala besar.
             </motion.p>
 
             <motion.div

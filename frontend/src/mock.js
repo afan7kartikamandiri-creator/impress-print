@@ -14,12 +14,12 @@ export const services = [
   {
     id: 2,
     slug: "custom-merchandise",
-    name: "Custom Merchandise",
-    tagline: "Branding Berkelas untuk Bisnis",
-    description: "Wujudkan identitas brand dengan merchandise berkualitas premium dan desain eksklusif",
-    longDescription: "Dari tumbler eksklusif hingga lanyard berkelas, kami menciptakan merchandise yang merepresentasikan nilai premium brand Anda.",
+    name: "Luxury Gift Hamper",
+    tagline: "Hadiah Eksklusif Berkelas Premium",
+    description: "Luxury gift hamper custom dengan kurasi item premium untuk hadiah korporat, klien VIP & momen spesial",
+    longDescription: "Dari tumbler eksklusif, lanyard premium, hingga notebook berkelas — kami merangkai luxury gift hamper yang merepresentasikan apresiasi tertinggi untuk klien, partner bisnis, dan momen berkesan Anda.",
     icon: "Sparkles",
-    image: "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=1200&q=85",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/byy357aa_WhatsApp%20Image%202026-05-29%20at%2014.17.31.jpeg",
     features: ["Desain eksklusif custom", "Material premium pilihan", "Kualitas korporat", "Minimum order fleksibel"],
     materials: ["Tumbler", "Lanyard", "T-shirt", "Tote Bag", "Mug", "Notebook"]
   },
@@ -100,13 +100,13 @@ export const services = [
 export const portfolioItems = [
   {
     id: 1,
-    title: "Corporate Gift Box Premium",
+    title: "Luxury Gift Hamper Premium",
     category: "Merchandise",
     client: "PT. Mandiri Sejahtera",
     year: "2024",
-    description: "Custom corporate gift dengan tumbler titanium, lanyard premium, dan notebook eksklusif untuk 500 karyawan top performer.",
-    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=1600&q=90",
-    tags: ["Corporate", "Premium", "Gift"]
+    description: "Luxury gift hamper eksklusif dengan tumbler premium, lanyard berkelas, dan notebook custom untuk apresiasi 500 klien & partner bisnis terpilih.",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/byy357aa_WhatsApp%20Image%202026-05-29%20at%2014.17.31.jpeg",
+    tags: ["Luxury", "Premium", "Gift Hamper"]
   },
   {
     id: 2,
@@ -165,7 +165,7 @@ export const portfolioItems = [
     client: "Soundscape Festival",
     year: "2024",
     description: "Custom merchandise lengkap: tumbler, lanyard VIP, tote bag, dan t-shirt untuk festival musik nasional 50.000 attendees.",
-    image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=1600&q=90",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/byy357aa_WhatsApp%20Image%202026-05-29%20at%2014.17.31.jpeg",
     tags: ["Event", "Music", "Merchandise"]
   },
   {
@@ -185,7 +185,7 @@ export const portfolioItems = [
     client: "Various Brands",
     year: "2024",
     description: "Koleksi tumbler custom dengan UV printing full color untuk berbagai brand corporate dan personal gift.",
-    image: "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=1600&q=90",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/byy357aa_WhatsApp%20Image%202026-05-29%20at%2014.17.31.jpeg",
     tags: ["Tumbler", "Custom", "Gift"]
   }
 ];
@@ -211,7 +211,7 @@ export const testimonials = [
     name: "Ahmad Rifqi",
     role: "Marketing Head, PT. Mandiri Sejahtera",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
-    content: "Dari kartu nama eksekutif hingga corporate gift untuk 500 karyawan, semua dikerjakan dengan standar premium dan presisi luar biasa.",
+    content: "Dari kartu nama eksekutif hingga luxury gift hamper untuk 500 klien VIP, semua dikerjakan dengan standar premium dan presisi luar biasa.",
     rating: 5
   },
   {
@@ -318,11 +318,11 @@ export const beforeAfterShowcase = [
   },
   {
     id: 2,
-    title: "Tumbler Corporate Gift",
+    title: "Luxury Gift Hamper Tumbler",
     category: "Merchandise",
-    description: "Tumbler polos diubah menjadi merchandise corporate premium dengan UV print full color dan packaging eksklusif.",
+    description: "Tumbler polos diubah menjadi luxury gift hamper premium dengan UV print full color dan packaging eksklusif.",
     before: "https://images.unsplash.com/photo-1572845759931-c0c0c4e7e0e0?w=1200&q=85",
-    after: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=1200&q=85"
+    after: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/byy357aa_WhatsApp%20Image%202026-05-29%20at%2014.17.31.jpeg"
   },
   {
     id: 3,
