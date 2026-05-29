@@ -196,9 +196,9 @@ export const teamMembers = [
   {
     id: 1,
     name: "Nadya Zulfahana",
-    role: "Head of Design",
+    role: "Owner",
     image: "https://customer-assets.emergentagent.com/job_impress-print-2/artifacts/y7dwalia_WhatsApp%20Image%202026-05-26%20at%2016.24.42.jpeg",
-    bio: "Award-winning designer dengan portfolio brand multinasional"
+    bio: "Pemilik visioner di balik Impress Print dengan dedikasi penuh terhadap kualitas premium di setiap project"
   },
   {
     id: 2,
