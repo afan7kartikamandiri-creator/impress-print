@@ -138,13 +138,13 @@ export const portfolioItems = [
   },
   {
     id: 6,
-    title: "Hotel Premium Stationery",
-    category: "Premium Cards",
-    client: "Grand Aston Hotel",
+    title: "Brosur Admission NJIS",
+    category: "Large Format",
+    client: "North Jakarta Intercultural School",
     year: "2024",
-    description: "Premium stationery set: kartu nama eksekutif, note pad, envelope dengan emboss logo dan letterpress.",
-    image: "https://images.unsplash.com/photo-1568303479875-b96a014a9bcd?w=1600&q=90",
-    tags: ["Hospitality", "Stationery", "Premium"]
+    description: "Brosur admission Unlock Your Future tahun ajaran 2026-2027 — full color print premium dengan tata letak eksklusif menampilkan ratusan university offers dan informasi pendaftaran.",
+    image: "/assets/brosur-lulus.jpg",
+    tags: ["Education", "Brosur", "Admission"]
   },
   {
     id: 7,
