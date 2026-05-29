@@ -55,7 +55,7 @@ export const services = [
     description: "Plakat, signage, dan display akrilik dengan UV printing langsung",
     longDescription: "Produk akrilik premium untuk corporate awards, retail display, dan dekorasi office dengan finishing crystal-clear.",
     icon: "Layers",
-    image: "https://images.unsplash.com/photo-1624969862644-791f3dc98927?w=1200&q=85",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/gzx9rwsp_MAHAR%20AKRILIK%20SAGE.jpg",
     features: ["Akrilik impor 5-10mm", "UV direct printing", "Custom shape & ukuran", "Crystal clear finishing"],
     materials: ["Akrilik Bening", "Akrilik Frosted", "Akrilik Warna", "Mirror Acrylic"]
   },
@@ -145,7 +145,7 @@ export const portfolioItems = [
     client: "Universitas Indonesia",
     year: "2024",
     description: "Koleksi plakat penghargaan untuk graduation ceremony dengan UV print 3D, akrilik 10mm, dan engraving gold.",
-    image: "https://images.unsplash.com/photo-1624969862644-791f3dc98927?w=1600&q=90",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/gzx9rwsp_MAHAR%20AKRILIK%20SAGE.jpg",
     tags: ["Education", "Award", "Premium"]
   },
   {
@@ -337,8 +337,8 @@ export const beforeAfterShowcase = [
     title: "Plakat Penghargaan",
     category: "Akrilik",
     description: "Dari konsep desain digital menjadi plakat akrilik premium dengan UV printing 3D dan engraving gold.",
-    before: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=1200&q=85",
-    after: "https://images.unsplash.com/photo-1624969862644-791f3dc98927?w=1200&q=85"
+    before: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/twxq0ot9_Display%20Brosur%20Akrilik%20_%20Stand%20Holder%20Brosur%20Acrylic%20A6%2015cm%20x%2010%2C5cm%20%202mm%20Type%20T.jpg",
+    after: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/gzx9rwsp_MAHAR%20AKRILIK%20SAGE.jpg"
   }
 ];
 
