@@ -310,10 +310,10 @@ export const contactInfo = {
 export const beforeAfterShowcase = [
   {
     id: 1,
-    title: "Kartu Nama Eksekutif",
+    title: "Luxury Wedding Invitation",
     category: "Premium Cards",
-    description: "Transformasi dari desain biasa menjadi kartu nama dengan hot stamping gold, embossing, dan finishing premium.",
-    before: "https://images.unsplash.com/photo-1606293459220-3a30c3989be5?w=1200&q=85",
+    description: "Keanggunan dalam setiap lembar — dari amplop premium Kern Paper hingga undangan dengan hot stamping gold, embossing, dan finishing eksklusif.",
+    before: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/cjo66rzn_Kern%20Paper%20Amplop%20C5%20A5%20-%20Tona%20Series%20_%20Amplop%20Undangan%20Kartu%20Ucapan%20Premium%20Paper.jpg",
     after: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/ojj2h1uo_Old%20Money%20Wedding%20Invitation%20Suite%20Luxury%20Elegant%20Green%20%26%20Cream%20Wedding%20Stationery%20Canva%20Template.jpg"
   },
   {
