@@ -72,13 +72,8 @@ const StorySection = () => (
           transition={{ duration: 0.9 }}
           className="lg:col-span-7 relative"
         >
-          <div className="grid grid-cols-2 gap-4 lg:gap-6">
-            <div className="aspect-[3/4] overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85" alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="aspect-[3/4] overflow-hidden mt-12">
-              <img src="https://images.unsplash.com/photo-1568303479875-b96a014a9bcd?w=800&q=85" alt="" className="w-full h-full object-cover" />
-            </div>
+          <div className="aspect-[4/5] overflow-hidden max-w-xl mx-auto">
+            <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=85" alt="" className="w-full h-full object-cover" />
           </div>
           <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-[#D4AF37] flex items-center justify-center">
             <div className="text-center text-black">
