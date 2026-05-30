@@ -144,6 +144,7 @@ ${formData.message}`;
                     <option value="Akrilik">Akrilik & Display</option>
                     <option value="Cutting Sticker">Cutting Sticker</option>
                     <option value="Design">Creative Design</option>
+                    <option value="E-Money">Custom E-Money Card</option>
                     <option value="Lainnya">Lainnya</option>
                   </select>
                 </div>

@@ -16,6 +16,7 @@ const productOptions = [
   { id: 'akrilik', name: 'Akrilik & Display', icon: Layers, desc: 'Plakat, signage, display' },
   { id: 'large-format', name: 'Banner & Poster', icon: Maximize, desc: 'A3, A2, banner besar' },
   { id: 'sticker', name: 'Cutting Stiker', icon: Scissors, desc: 'Stiker custom presisi' },
+  { id: 'emoney', name: 'Custom E-Money', icon: CreditCard, desc: 'e-Money, Flazz, Brizzi, TapCash' },
   { id: 'merch', name: 'Merchandise', icon: Sparkles, desc: 'Tote bag, t-shirt, dll' },
   { id: 'design', name: 'Jasa Desain', icon: Palette, desc: 'Desain custom oleh expert' },
   { id: 'lainnya', name: 'Lainnya', icon: Sparkles, desc: 'Konsultasi produk lain' }

@@ -82,6 +82,18 @@ export const services = [
     image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/ar2u8uzt_Fast%20Graphic%20Design%20Service.jpg",
     features: ["Senior designer expert", "Unlimited revisions", "Source file included", "Brand consultation"],
     materials: ["Logo Design", "Brand Identity", "Print Layout", "Packaging", "Illustration"]
+  },
+  {
+    id: 8,
+    slug: "emoney-custom",
+    name: "Custom E-Money Card",
+    tagline: "Kartu Uang Elektronik Eksklusif",
+    description: "Kustomisasi kartu uang elektronik dengan desain personal & UV printing premium",
+    longDescription: "Ubah kartu e-money standar Anda menjadi statement piece eksklusif. Kami mencetak custom desain langsung di permukaan kartu menggunakan teknologi UV printing tanpa mengganggu chip & fungsi NFC.",
+    icon: "CreditCard",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/3gd7hpct_Kartu%20Etoll%20Emoney%20Flazz%20Gen%202%20Custom%20Foto%20Cetak%20Uv%20Print%20Tapcash%20Brizii%20Mandiri%20Edisi%20Black%20Card.jpg",
+    features: ["UV print full color", "Chip & NFC tetap aktif", "Cetak 2 sisi (depan & belakang)", "Anti gores premium coating"],
+    materials: ["e-Money Mandiri", "Flazz BCA", "Brizzi BRI", "TapCash BNI"]
   }
 ];
 
@@ -155,6 +167,16 @@ export const portfolioItems = [
     description: "Kalender korporat tahunan dengan desain eksklusif full color, ilustrasi skyline custom, dan layout dua bulan per halaman untuk Ilham Jaya Group beserta anak perusahaannya.",
     image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/tpermrtu_WhatsApp%20Image%202026-05-28%20at%2016.39.00.jpeg",
     tags: ["Corporate", "Kalender", "Premium"]
+  },
+  {
+    id: 8,
+    title: "Custom Black Card E-Money",
+    category: "E-Money",
+    client: "Premium Members",
+    year: "2024",
+    description: "Custom kartu uang elektronik (e-Money, Flazz, Brizzi, TapCash) dengan desain Black Card eksklusif edisi premium — UV print 2 sisi tanpa mengganggu fungsi chip & NFC.",
+    image: "https://customer-assets.emergentagent.com/job_impress-dev-next-1/artifacts/3gd7hpct_Kartu%20Etoll%20Emoney%20Flazz%20Gen%202%20Custom%20Foto%20Cetak%20Uv%20Print%20Tapcash%20Brizii%20Mandiri%20Edisi%20Black%20Card.jpg",
+    tags: ["E-Money", "Custom Card", "UV Print"]
   }
 ];
 
